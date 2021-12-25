@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Algebra Calc</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link rel="icon" href="images/favicon.ico" />
+</head>
+
+<body>
+	<div id="header">
+		<table>
+			<thead>
+				<tr>
+					<th id="th-img"><img src = "images/favicon.ico" style="width:50px;height:50px;"></th>
+          <th><pre>    </pre></th>
+          <th id = "th-txt"><h1>Math Calc</h1></th>
+          <th>
+            <div class="dropdown">
+	            <button onclick="dropdownMenu()" class="dropbtn">All Calculations</button>
+              <div id="myDropdown" class="dropdown-content">
+                  <a href="javascript: add();">Add ➕!</a>
+                  <a href="javascript: subtract();">Subtract ➖!</a>
+                  <a href="javascript: multiply();">Multiply ✖️!</a>
+                  <a href="javascript: divide();">Divide ➗!</a>
+                  <a href="javascript: nPr();">nPr</a>
+                  <a href="javascript: nCr();">nCr</a>
+                  <a href="javascript: quad();">Quad ES</a>
+                  <a href="javascript: log();">Log Solver</a>
+                  <a href="javascript: linear();">Linear ES</a>
+              </div>
+            </div>
+          </th>
+          <th><pre>                                                                                     </pre></th>
+          <th><div id = "view-count">Views 👤: 0</div></th>
+      </thead>
+    </table>
+  </div>
+    <div class = "buttons">
+      <h1>Basic Operations</h1>
+      <button id = "add" onclick = "add();">Add ➕!</button>
+      <button id = "subtract" onclick = "subtract();">Subtract ➖!</button>
+      <button id = "multiply" onclick="multiply();">Multiply ✖️!</button>
+      <button id = "divide" onclick = "divide();">Divide ➗!</button>
+      <div id = "probability">
+        <h1>Probability</h1>
+        <button id = "nPr" onclick="nPr();">nPr</button>
+        <button id = "nCr" onclick="nCr();">nCr</button>
+      </div>
+      <div id = "equationSolver">
+        <h1>Equation Solver</h1>
+        <button id = "quad" onclick = "quad();">Quadratic Equation Solver!</button>
+        <button id = "log" onclick = "log();">Log Solver!</button>
+        <button id = "linear" onclick = "linear();">Linear Equation Solver!</button>
+      </div>
+    </div>
+<script src="script.js"></script>
+  </body>
+</html>
