@@ -7,4 +7,4 @@ CoderX07
 
 Here Is The Math Calc Website (Hosted on repl.it): https://math-calc.the07coder.repl.co
 
-![Screenshot](math-calc-home-screen.png)
+![This is an image](/images/math-calc-home-screen.png)
